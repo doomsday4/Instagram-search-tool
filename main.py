@@ -3,11 +3,8 @@ import os
 
 # --- Configuration ---
 # IMPORTANT: Before you run, paste the full path to your unzipped Instagram data folder here.
-# Example for Mac: /Users/yourusername/Downloads/instagram-main.ak56-2025-08-03-9SQD9oCT
-# Example for Windows: C:\\Users\\yourusername\\Downloads\\instagram-main.ak56-2025-08-03-9SQD9oCT
-ROOT_DIRECTORY = "/Users/amankhilani/Downloads/instagram-main.ak56-2025-08-03-9SQD9oCT"
+ROOT_DIRECTORY = "/Users/.../.../instagram-...56-2025-08-03-9SQD9oCT" # PASTE YOUR FOLDER PATH HERE
 
-# --- Helper Function to Load Data ---
 def load_json_data(file_path):
     """Safely loads a JSON file if it exists."""
     full_path = os.path.join(ROOT_DIRECTORY, file_path)
